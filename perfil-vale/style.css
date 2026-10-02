@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    background: #f89ec1;
+    background: #febdd6;
     color: #2c2828;
 }
 
@@ -87,12 +87,52 @@ cover {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 5px;
-    color: #202020;
+    color: #e44692;
 }
 
 .profile h2 {
     font-size: 15px;
     font-weight: 500;
-    color: #666;
+    color: #6dc6c4;
     margin-bottom: 15px;
 }
+
+.profile-description {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #65afaf;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* REDES SOCIALES */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #f1f2f4;
+    color: #d73a71;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-4px);
+    background: #222;
+    color: #ffffff;
+}
+
